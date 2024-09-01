@@ -3,48 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        .resume-container {
-            max-width: 800px;
-            margin: auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+    <title>Sai Dileep Patoju - Full Stack Java Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #777;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.25em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid #333;
+    margin-top: 20px;
+    font-size: 0.875em;
+    color: #777;
+}
+
+</style>
 </head>
 <body>
-    <div class="resume-container">
-        <h1>John Doe</h1>
-        <h2>Software Engineer</h2>
-        <p>Email: john.doe@example.com</p>
-        <p>Phone: +1 234 567 890</p>
-        <hr>
-        <h2>Experience</h2>
-        <p>Software Engineer at XYZ Company (Jan 2020 - Present)</p>
-        <ul>
-            <li>Developed and maintained web applications using Java and Spring Boot.</li>
-            <li>Worked with cross-functional teams to deliver high-quality software solutions.</li>
-        </ul>
-        <h2>Education</h2>
-        <p>Bachelor of Science in Computer Science, ABC University (2016 - 2020)</p>
-        <h2>Skills</h2>
-        <ul>
-            <li>Java, Python, HTML, CSS</li>
-            <li>Spring Boot, Flask, SQL</li>
-        </ul>
+    <div class="container">
+        <header>
+            <h1>Sai Dileep Patoju</h1>
+            <h2>Full Stack Java Developer</h2>
+            <p><strong>Email:</strong> john.doe@example.com | <strong>Phone:</strong> +1 234 567 890</p>
+        </header>
+
+        <section id="profile">
+            <h3>Profile</h3>
+            <p>I am a qualified and professional Full Stack web developer with more than 4+ years of experience in development, database administration, and website design. Strong creative and analytical skills. Team player with an eye for detail.</p>
+        </section>
+
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Java (core & Advanced)</li>
+                <li>Database Administration, Designing Project Architecture</li>
+                <li>Spring Framework (MVC & Spring Boot, Microservices)</li>
+                <li>Google Cloud Console (Google Auth 2.0, Google Service Accounts)</li>
+                <li>Tomcat Server 8.5, IIS</li>
+                <li>MS SQL Server, MySQL</li>
+                <li>API Services</li>
+                <li>Scheduler Services</li>
+                <li>jQuery, HTML, CSS</li>
+                <li>API Integration</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h3>Experience</h3>
+            <div class="accordion">
+                <h3>Re Sustainability Pvt, Hyderabad, Telangana (August 2022 – Present)</h3>
+                <div>
+                    <p><strong>Role:</strong> Full Stack Developer</p>
+                    <p><strong>Projects:</strong></p>
+                    <ul>
+                        <li><strong>Scorecard:</strong> Technologies: React JS, Java, Spring MVC, JDBC Template, MS SQL Server</li>
+                        <li><strong>Internal ChatBot:</strong> Technologies: Python, MS SQL Server</li>
+                        <li><strong>PROTECT & BRAIN BOX:</strong> Technologies: Java, Spring MVC, Struts, Microservices, HTML, CSS, jQuery</li>
+                    </ul>
+                </div>
+
+                <h3>GHSL Technologies Pvt, Hyderabad, Telangana</h3>
+                <div>
+                    <p><strong>Role:</strong> Full Stack Developer</p>
+                    <p><strong>Projects:</strong></p>
+                    <ul>
+                        <li><strong>PMIS:</strong> Technologies: Java, Spring MVC, JDBC Template, HTML, CSS, jQuery</li>
+                        <li><strong>DocNmeds:</strong> Technologies: Java, Spring MVC, JDBC Template, HTML, CSS, jQuery</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h3>Education</h3>
+            <p>B.Tech from JNTUK University.</p>
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>Scorecard:</strong> A site-wise detail observation tool for tracking sustainability goals.</li>
+                <li><strong>Internal ChatBot:</strong> A Q&A chat system with a natural chat experience using AI plugins like Transformers.</li>
+                <li><strong>PROTECT & BRAIN BOX:</strong> User-friendly applications for reporting incidents and submitting innovative ideas in the organization.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2024 Sai Dileep Patoju. All Rights Reserved.</p>
+        </footer>
     </div>
+
+    <script src="scripts.js">
+$(document).ready(function(){
+    $(".accordion").accordion({
+        collapsible: true,
+        heightStyle: "content"
+    });
+});
+
+</script>
 </body>
 </html>
